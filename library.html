@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Library Management System - SDLC</title>
+</head>
+
+<body bgcolor="lightcyan">
+
+<center>
+
+    <h1>LIBRARY MANAGEMENT SYSTEM</h1>
+
+    <p><b>Software Development Life Cycle Based Project</b></p>
+
+</center>
+
+<hr>
+
+<h2>1. Requirement Analysis</h2>
+
+<p>
+The Library Management System helps students and librarians
+manage books, student details, book issue and book return.
+</p>
+
+<ul>
+    <li>Student registration</li>
+    <li>Book search</li>
+    <li>Book issue</li>
+    <li>Book return</li>
+    <li>Book availability</li>
+</ul>
+
+<hr>
+
+<h2>2. System Design</h2>
+
+<table border="1" cellpadding="10">
+
+<tr>
+    <th>Module</th>
+    <th>Purpose</th>
+</tr>
+
+<tr>
+    <td>Student Details</td>
+    <td>Store student information</td>
+</tr>
+
+<tr>
+    <td>Book Search</td>
+    <td>Search for available books</td>
+</tr>
+
+<tr>
+    <td>Book Issue</td>
+    <td>Issue a book to a student</td>
+</tr>
+
+<tr>
+    <td>Book Return</td>
+    <td>Return the borrowed book</td>
+</tr>
+
+</table>
+
+<hr>
+
+<h2>3. Implementation</h2>
+
+<p>
+The system interface is created using HTML.
+Forms, tables, input boxes and selection lists are used
+to collect library information.
+</p>
+
+<hr>
+
+<h2>4. Testing</h2>
+
+<table border="1" cellpadding="10">
+
+<tr>
+    <th>Test Case</th>
+    <th>Expected Result</th>
+</tr>
+
+<tr>
+    <td>Enter Student Details</td>
+    <td>Student details should be accepted</td>
+</tr>
+
+<tr>
+    <td>Search Book</td>
+    <td>Book details should be displayed</td>
+</tr>
+
+<tr>
+    <td>Select Book</td>
+    <td>Selected book should appear</td>
+</tr>
+
+<tr>
+    <td>Submit Form</td>
+    <td>Form should be submitted</td>
+</tr>
+
+</table>
+
+<hr>
+
+<h2>5. Deployment</h2>
+
+<p>
+After testing, the Library Management System can be deployed
+on a web server and accessed using a web browser.
+</p>
+
+<hr>
+
+<h2>6. Maintenance</h2>
+
+<p>
+The system can be improved by adding a database, student login,
+book availability tracking, fine calculation and admin management.
+</p>
+
+<hr>
+
+<center>
+
+    <h2>LIBRARY REGISTRATION FORM</h2>
+
+</center>
+
+<form>
+
+    <h3>Student Details</h3>
+
+    Student Name:
+
+    <input type="text"
+           name="studentname"
+           placeholder="Enter student name">
+
+    <br><br>
+
+    Student ID:
+
+    <input type="text"
+           name="studentid"
+           placeholder="Enter student ID">
+
+    <br><br>
+
+    Department:
+
+    <select name="department">
+
+        <option>Select Department</option>
+        <option>AI & DS</option>
+        <option>Computer Science</option>
+        <option>Information Technology</option>
+        <option>Electronics</option>
+        <option>Mechanical</option>
+
+    </select>
+
+    <br><br>
+
+    <hr>
+
+    <h3>Book Details</h3>
+
+    Book Name:
+
+    <select name="book">
+
+        <option>Select Book</option>
+        <option>Python Programming</option>
+        <option>Data Structures</option>
+        <option>Computer Networks</option>
+        <option>Database Management</option>
+        <option>Artificial Intelligence</option>
+
+    </select>
+
+    <br><br>
+
+    Book Type:
+
+    <input type="radio"
+           name="type"
+           value="issue">
+
+    Issue Book
+
+    <input type="radio"
+           name="type"
+           value="return">
+
+    Return Book
+
+    <br><br>
+
+    Issue Date:
+
+    <input type="date"
+           name="issuedate">
+
+    <br><br>
+
+    <input type="checkbox"
+           name="confirm">
+
+    I confirm that the information provided is correct.
+
+    <br><br>
+
+    <input type="submit"
+           value="SUBMIT">
+
+    <input type="reset"
+           value="CLEAR">
+
+</form>
+
+<hr>
+
+<center>
+
+    <h3>LIBRARY MANAGEMENT SYSTEM</h3>
+
+    <p>Thank You</p>
+
+</center>
+
+</body>
+
+</html>
